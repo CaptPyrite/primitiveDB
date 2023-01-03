@@ -76,14 +76,14 @@ DB.set_auth(<AUTHENTICATION KEY>)
 DB_data = DB.fetch()
 
 
-DB_data["Name"] = ["name1",           # Adding `name1` to first column in Names
-                   "name2"]           # Adding `name2` to second column in Names
+DB_data["Name"] = ["Jack",           # Adding `Jack` to first row into Names
+                   "James"]           # Adding `Jill` to second row into Names
 
-DB_data["Age"] = [10,                 # Adding the age for `name1` 
-                  07]                 # Adding the age for  `name2`
+DB_data["Age"] = [10,                 # Adding the age for `Jack` 
+                  07]                 # Adding the age for  `James`
                   
-DB_data["Adress"] = ["123 NAME ST",   # Adding the adress for `name1`
-                     "123 MAIN ST"]   # Adding the adress for `name2`
+DB_data["Adress"] = ["123 NAME ST",   # Adding the adress for `Jack`
+                     "123 MAIN ST"]   # Adding the adress for `James`
 
 DB.insert(DB_data)
 ```
