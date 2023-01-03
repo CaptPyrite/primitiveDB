@@ -84,7 +84,7 @@ class connect():
         
         Param(s): 
             self: Access the variables and methods in the class
-            dataframe:pandas.DataFrame: Pass the dataframe that is to be inserted into the database
+            dataframe(pandas.DataFrame): Pass the dataframe that is to be inserted into the database
         Return:
                 The response from the server
         """
