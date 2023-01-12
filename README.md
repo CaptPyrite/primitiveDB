@@ -11,10 +11,15 @@
 Primitive-Database is a lightweight databasing library written in Python3. It uses CSV(Comma Separated Values) file(s) to store data, making it easy to perform simple and minimalistic tasks with great and stable performance.
 
 
+# Installation
+
+```
+pip install primitiveDB
+```
+* Tested on windows and Linux only
+
 <br></br>
-
 # Using PrimitiveDB
-
 <h2>Server</h2>
 
 <h3>Creating a simple vertical database</h3>
